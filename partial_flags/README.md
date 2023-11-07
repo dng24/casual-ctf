@@ -28,8 +28,8 @@ Otherwise, if this is used as a Docker challenge, no files need to be uploaded.
 ## Solution
 
 Running `strings` on the binary will reveal different parts of the flag, and participants can
-guess the order of the pieces. However, one would have to trace through the assembly or use a
-decompiler to figure out the order that the pieces are in.
+guess the order of the pieces. However, to be sure of the correct order of the pieces, one would
+have to trace through the assembly or decompiled code.
 
 The default flag is `casual{bm9pY2UhIQo=}`.
 

@@ -26,9 +26,10 @@ Otherwise, if this is used as a Docker challenge, no files need to be uploaded.
 
 ## Solution
 
-The binary sleeps for one day before it rotates and decrypts the flag before printing to the
-console. The binary can be placed in a debugger, and the sleep instruction can be skipped, or the
-argument passed into sleep can be set to 0. This way, the flag will print immediately.
+The binary sleeps for one day before the flag is rotated, decrypted, and printed to the console.
+To prevent from having to wait a day, the binary can be placed in a debugger, and the sleep
+instruction can be skipped, or the argument passed into the sleep function can be set to 0. This
+way, the flag will print immediately.
 
 The default flag is `casual{fast_forwarding_time}`.
 
