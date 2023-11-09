@@ -14,7 +14,7 @@ There is an imposter binary in the Docker container that is pretending to be a l
 
 Find this binary in the system.
 
-Use root:northeasternctf to SSH into the Docker container.
+Use `root:northeasternctf` to SSH into the Docker container.
 
 ## Hint
 
