@@ -24,7 +24,7 @@ If this is used as a static challenge:
 
 Otherwise, if this is used as a Docker challenge, no files need to be uploaded.
 
-##Solution
+## Solution
 
 The flag is in a QR code hidden in the data section of the binary. A tool like Ghidra will show the QR code if you scroll to the data section.
 

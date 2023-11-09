@@ -12,6 +12,8 @@ Medium
 
 The flag will print out when you run the binary...you just gotta wait a bit.................
 
+Use root:northeasternctf to SSH into the Docker container.
+
 ## Hint
 
 What is preventing the flag from printing? What if we just skip that part?

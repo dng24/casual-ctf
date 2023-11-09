@@ -12,6 +12,8 @@ Easy
 
 Russian dolls do a lot of nesting, and so does the file in this challenge.
 
+Use root:northeasternctf to SSH into the Docker container.
+
 ## Hint
 
 You may have to rename each file to have the correct extension.

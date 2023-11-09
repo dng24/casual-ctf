@@ -14,6 +14,8 @@ There is an imposter binary in the Docker container that is pretending to be a l
 
 Find this binary in the system.
 
+Use root:northeasternctf to SSH into the Docker container.
+
 ## Hint
 
 None
@@ -38,5 +40,5 @@ The binary can be built locally by running `make`:
 A Docker container can also be created:
 
 1. `docker build -t imposter .` - build the container
-2. `docker run -itd --rm -p 9999:9999 imposter` - run the container
+2. `docker run -itd --rm -p 22:22 imposter` - run the container
 3. `ssh root@localhost` with the password set to the `ROOT_PASSWORD` argument in the Dockerfile

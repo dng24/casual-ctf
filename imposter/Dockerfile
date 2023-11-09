@@ -37,6 +37,7 @@ RUN apt-get update \
     && apt-get install -y ssh debsums \
     && apt-get autoremove \
     && apt-get clean \
+    # configure ssh
     && bash -c "echo -e -n \"$ROOT_PASSWORD\n$ROOT_PASSWORD\n\" | passwd root" \
     && mkdir -p /run/sshd \
     # allow root login
@@ -53,4 +54,4 @@ EXPOSE 22/TCP
 CMD ["/bin/sh", "-c", "/usr/sbin/sshd -D -e \"$@\""]
 
 # build: docker build -t imposter .
-# run: docker run -itd --rm -p 9000:9000 imposter
+# run: docker run -itd --rm -p 22:22 imposter
