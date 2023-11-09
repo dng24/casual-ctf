@@ -12,7 +12,7 @@ Medium
 
 The flag will print out when you run the binary...you just gotta wait a bit.................
 
-Use root:northeasternctf to SSH into the Docker container.
+Use `root:northeasternctf` to SSH into the Docker container.
 
 ## Hint
 
