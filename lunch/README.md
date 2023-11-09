@@ -15,7 +15,7 @@ Some employees are at Sandals Labs are discussing their lunch plans tomorrow.
 Where are they going to go for lunch and what time?
 
 Submit you answer in the format `casual{<location>-<hour>:<minute>[am|pm]}`. For example, if the employees are
-planning to go to the restaurant Seafood House at 2 pm, then the flag would be `FLAG{Seafood House-2:00pm}`.
+planning to go to the restaurant Seafood House at 2 pm, then the flag would be `casual{Seafood House-2:00pm}`.
 
 ## Hint
 

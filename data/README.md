@@ -28,7 +28,7 @@ Otherwise, if this is used as a Docker challenge, no files need to be uploaded.
 
 The flag is in a QR code hidden in the data section of the binary. A tool like Ghidra will show the QR code if you scroll to the data section.
 
-The default flag is `FLAG{be_glad_this_qr_code_didnt_download_malware}`.
+The default flag is `casual{be_glad_this_qr_code_didnt_download_malware}`.
 
 ## Build
 
