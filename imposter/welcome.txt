@@ -1,0 +1,8 @@
+
+Welcome to the Imposter challenge!
+
+Find the imposter binary located somewhere on this machine.
+
+Good luck!
+
+
