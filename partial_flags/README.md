@@ -13,7 +13,7 @@ Easy
 The flag appears to have been stored in different pieces in the partialFlags binary. Piece back
 together the flag to capture it.
 
-Use root:northeasternctf to SSH into the Docker container.
+Use `root:northeasternctf` to SSH into the Docker container.
 
 ## Hint
 
