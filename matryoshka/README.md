@@ -10,7 +10,7 @@ Easy
 
 ## Description
 
-Russian dolls do a lot of nesting, and so does the file in this challnge.
+Russian dolls do a lot of nesting, and so does the file in this challenge.
 
 ## Hint
 

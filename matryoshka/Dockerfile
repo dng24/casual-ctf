@@ -10,7 +10,7 @@ ARG ROTATE_OFFSET=8
 ARG ROOT_PASSWORD=northeasternctf
 
 
-FROM debian:buster-slim as build
+FROM debian:bullseye-slim as build
 
 ARG OUT_FILE
 ARG WELCOME_FILE
@@ -23,12 +23,12 @@ COPY . .
 
 RUN apt-get update \
     && apt-get install -y gcc make zip tar bzip2 gzip lzma rzip lrzip ncompress lzop \
-    && make "BIN=$BIN" "CHAL_NAME=$CHAL_NAME" "WELCOME_FILE=$WELCOME_FILE" "ROTATE_OFFSET=$ROTATE_OFFSET"
+    && make "OUT_FILE=$OUT_FILE" "CHAL_NAME=$CHAL_NAME" "WELCOME_FILE=$WELCOME_FILE" "ROTATE_OFFSET=$ROTATE_OFFSET"
 
 
 # use staged build to reduce docker image size
 
-FROM debian:buster-slim as main
+FROM debian:bullseye-slim as main
 
 ARG OUT_FILE
 ARG WELCOME_FILE
