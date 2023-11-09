@@ -12,6 +12,8 @@ Medium
 
 Something is hidden in this binary. You won't find it by running the binary.
 
+Use `root:northeasternctf` to SSH into the Docker container.
+
 ## Hint
 
 Can't find the flag? Maybe checking out the data section will help.
